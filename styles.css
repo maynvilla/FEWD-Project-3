@@ -145,49 +145,48 @@ label {
 
 @media screen and (min-width: 769px) {
     /* STYLES HERE */
-    body {
-      width: 70%;
-    }
-
-    #fname-whole-width input[type=text],
-    #city-whole-width input[type=text],
-    #pnumber-whole-width input[type=text],
-    #fname-whole-width input[type=text],
-    #street-whole-width input[type=text] ,
-    #email-whole-width input[type=text],
-    #states-whole-width input[type=select] {
-      width: 60%;
-      padding: 12px 20px;
-      margin: 5px 20px;
-      }
-
-    #container label, #fname-whole-width,
-    #city-whole-width,
-    #pnumber-whole-width,
-    #fname-whole-width,
-    #street-whole-width,
-    #email-whole-width,
-    #states-whole-width {
-      width: 40%;
-      padding: 12px 20px;
-      margin: 5px 20px;
-      float: left;
-    }
-
-    #zip {
-      width: 25%;
-      padding: 12px 60px;
-      margin: 12px 0;
-      display: block;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-      background-color: rgba(255, 255, 255, 0.4)
-    }
-    .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-    }
-
+  body {
+    width: 70%;
   }
+
+  #fname-whole-width input[type=text],
+  #city-whole-width input[type=text],
+  #pnumber-whole-width input[type=text],
+  #fname-whole-width input[type=text],
+  #street-whole-width input[type=text] ,
+  #email-whole-width input[type=text],
+  #states-whole-width input[type=select] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 5px 20px;
+    }
+
+  #container label, #fname-whole-width,
+  #city-whole-width,
+  #pnumber-whole-width,
+  #fname-whole-width,
+  #street-whole-width,
+  #email-whole-width,
+  #states-whole-width {
+    width: 40%;
+    padding: 12px 20px;
+    float: left;
+  }
+
+  #zip {
+    width: 25%;
+    padding: 12px 60px;
+    margin: 12px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.4)
+  }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+      }
+    }
