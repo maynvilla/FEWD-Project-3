@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>The Code Review</title>
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC%7CLato:300%7CParisienne%7CPoiret+One" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script%7CJulius+Sans+One|Meddon" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script%7CJulius+Sans+One%7CMeddon" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -22,18 +22,18 @@
       <h2>Contact Information</h2>
 
     <div id="container" class="clearfix">
-      <label for="fullname">Full Name</label>
-      <input type="text" placeholder="Required" name="name" id="whole-width"><br>
-      <label for="e-mail">Email Address</label>
-      <input type="text" name="email" placeholder="Required" id="whole-width"><br>
-      <label for="phone-number">Phone Number</label>
-      <input type="text" name="pnumber" id="whole-width"><br>
-      <label for="street-address" >Street Address</label>
-      <input type="text" name="street" id="whole-width"><br>
-      <label for="city">City</label>
-      <input type="text" name="city" id="whole-width"><br>
-      <label for="states">States</label>
-      <select name="states" id="whole-width">
+      <label for="fname-whole-width">Full Name</label>
+      <input type="text" placeholder="Required" name="name" id="fname-whole-width" class="whole-width"><br>
+      <label for="email-whole-width">Email Address</label>
+      <input type="text" name="email" placeholder="Required" id="email-whole-width"><br>
+      <label for="pnumber-whole-width">Phone Number</label>
+      <input type="text" name="pnumber" id="pnumber-whole-width"><br>
+      <label for="street-whole-width" >Street Address</label>
+      <input type="text" name="street" id="street-whole-width"><br>
+      <label for="city-whole-width">City</label>
+      <input type="text" name="city" id="city-whole-width"><br>
+      <label for="states-whole-width">States</label>
+      <select name="states" id="states-whole-width">
           <option value="" disabled selected>Choose State</option>
           <option value="alabama">Alabama</option>
           <option value="alaska">Alaska</option>
@@ -86,7 +86,7 @@
           <option value="wisconsin">Wisconsin</option>
           <option value="wyoming">Wyoming</option>
         </select><br>
-      <label for="zip_code">Zip Code</label>
+      <label for="zip">Zip Code</label>
       <input type="text" name="zip" id="zip" class="clearfix">
     </div>
     </fieldset>
@@ -95,16 +95,16 @@
       <h2>Newsletter</h2>
       <p>Select the newsletters you would like to receive</p>
       <div id="checkbox">
-        <input type="checkbox" name="receive"><label for="htmlnews">HTML News</label><br>
-        <input type="checkbox" name="receive"><label for="htmlnews">CSS News</label><br>
-        <input type="checkbox" name="receive"><label for="htmlnews">Javascript News</label><br>
+        <input type="checkbox" name="receive" id="htmlnews"><label for="htmlnews">HTML News</label><br>
+        <input type="checkbox" name="receive" id="cssnews"><label for="cssnews">CSS News</label><br>
+        <input type="checkbox" name="receive" id="javascriptnews"><label for="javascriptnews">Javascript News</label><br>
       </div>
       <div id="radio">
         <p>Newsletter format</p>
-        <input type="radio" name="format" value="html"><label for="html">HTML</label><br>
-        <input type="radio" name="format" value="plain_text"><label for="text">Plain Text</label><br><br>
+        <input type="radio" name="format" value="html" id="html"><label for="html">HTML</label><br>
+        <input type="radio" name="format" value="plain_text" id="text"><label for="text">Plain Text</label><br><br>
         <label for="comments">Other topics you'd like to hear about</label><br>
-        <textarea name="comment" form="form" placeholder="We would love to hear your thoughts"></textarea>
+        <textarea name="comment" placeholder="We would love to hear your thoughts" id="comments">We would love to hear your thoughts</textarea>
       </div>
       <footer>
          <button type="button">Sign Up</button>
